@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="abc.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+
+    <title>Form</title>
+    <style> 
+html,body
+{
+  margin:3px;
+  padding: 2px;
+  height:100%;
+  width:100%;
+  
+}
+.background {
+  position: absolute;
+  background-color:lightgrey;
+  height:100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+</style>
+<script>
+ 
+    window.onload = function() {
+    Particles.init({
+    selector: '.background',
+    maxParticles: 200,
+    connectParticles:false,
+    color:["#000000","#ff0000","ffff00","0080ff","ffff00"],
+    sizeVariation:4,
+    speed:1.5,
+  });
+};
+</script>
+
+</head>
+<body>
+  <canvas class="background" ></canvas>
+  
+ <nav>
+  <a href="">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="">Resume</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  
+
+  <a href="education.html">Education</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="skills.html">Skills</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="project.html">Projects</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="">Contact Me</a>
+</nav>
+<center>
+  <div class="container">
+    
+      <img id="per" src="abc.jpg" alt="">
+      <h1>Pritesh Kumar Singh</h1>
+      
+      <p id="demo">I am a MEAN stack developer.<br>Graduating in 2021.<br>Looking for Intership in area of web development</p>
+
+ <center>
+ <footer id="cu">
+  &copy;2019 Personal website &nbsp; Designed by Pritesh with ❤ <br>
+  Contact details☎ 8882657925
+</footer>
+</center>
+</center>
+</div>
+</body>
+</html>

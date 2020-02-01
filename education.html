@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="abc.css">
+    <title>Form</title>
+    <script src="node_modules/particlesjs/dist/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+    <style> 
+html,body
+{
+  margin:3px;
+  padding: 2px;
+}
+.background {
+  position: absolute;
+  background-color:lightgrey;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  
+}
+</style>
+<script>
+ 
+    window.onload = function() {
+    Particles.init({
+    selector: '.background',
+    maxParticles: 150,
+    connectParticles:false,
+    color:["#000000","#ff0000"],
+    sizeVariation:4,
+    speed:1.5,
+  });
+};
+</script>
+
+</head>
+<body>
+  <canvas class="background" ></canvas>
+ <nav>
+     <a href="form.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="">Resume</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="education.html">Education</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="skills.html">Skills</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="project.html">Projects</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="">Contact Me</a>
+</nav>
+<center>
+  <div class="container2">
+    <h1>Educational Qualifications</h1>
+    <img id ="educa" src="web.jpg" alt="">
+  
+  <h2>10th Board(2013-2014)</h2>  
+  <p>D.A.V Public School Walmi Complex PhulwariSharif<br>
+    Patna-800002<br><br><strong>CGPA-8.4</strong></p>
+    <hr>
+    <h2>12th Board(2014-2016)</h2>  
+    <p>D.A.V Public School Walmi Complex PhulwariSharif<br>
+      Patna-800002<br><br><strong>Percentage-78.6</strong></p>
+      <hr>
+      <h2>B.tech(2017-2021)</h2>  
+      <p>Bharati Vidyapeeth's College of Engineering<br><br><strong>CGPA-8.6</strong></p>
+
+<hr>
+  </div>
+</center>
+ <center>
+ <footer id="cu">
+  &copy;2019 Personal website &nbsp; Designed by Pritesh with ❤ <br>
+  Contact details☎ 7289048592
+</footer>
+</center>
+</body>
+</html>

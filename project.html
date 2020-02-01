@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="abc.css">
+    <title>Form</title>
+    <script src="node_modules/particlesjs/dist/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+    <style> 
+html,body
+{
+  margin:3px;
+  padding: 2px;
+  height:100%;
+  width:100%;
+ 
+}
+.background {
+  position: absolute;
+  background-color:lightgrey;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  
+}
+</style>
+<script>
+ 
+    window.onload = function() {
+    Particles.init({
+    selector: '.background',
+    maxParticles: 150,
+    connectParticles:false,
+    color:["#000000","#ff0000",],
+    sizeVariation:4,
+    speed:1.5,
+  });
+};
+</script>
+
+</head>
+<body>
+  <canvas class="background" ></canvas>
+ <nav>
+     <a href="form.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="">Resume</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="education.html">Education</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="skills.html">Skills</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="project.html">Projects</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#cont">Contact Me</a>
+</nav>
+<center>
+  <div class="container2">
+    <h1>Projects</h1>
+    <img id ="ski" src="skill.jpg" alt="">
+    <h2>Blog WebApp</h2>  
+    <p>This is Blog App that let that let the users to add,delete and change Blogs.<br><strong>Locally Hosted</strong></p>
+      <hr>
+      <h2>Auto Image Classifier</h2>  
+      <p>This is a project based on CNN that makes your folder consisting <br> different images automatically organized into subfolders</p>
+        <hr>
+        <h2>Personal Protofolio</h2>  
+        <p>Personal webpage having minimistic Backend..</p>
+        <hr>
+        <h2>Video summarization</h2>  
+        <p>This project enables a user to see the summary of a long video<br><strong>Currently Working</strong></p>
+
+<hr>
+<center>
+    <footer id="cu">
+     &copy;2019 Personal website &nbsp; Designed by Pritesh with ❤ <br>
+     Contact details☎ 7289048592
+   </footer>
+   </center>
+  </div>
+</center>
+ 
+</body>
+</html>
