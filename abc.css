@@ -65,7 +65,7 @@ body
     background:lightgrey;
     height:100%;
 }
-canvas
+span
 {
-    
+    color:darkred;
 }
