@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="abc.css">
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
-
-    <title>Form</title>
+    <link  rel="shortcut icon" type="image/jpeg" href="problem.jpeg">
+    <script src="node_modules/typed.js/lib/typed.js"></script>
+    <title>@Pritesh Singh</title>
     <style> 
-html,body
-{
+html,body{
   margin:3px;
   padding: 2px;
   height:100%;
@@ -33,11 +34,12 @@ html,body
     selector: '.background',
     maxParticles: 200,
     connectParticles:false,
-    color:["#000000","#ff0000","ffff00","0080ff","ffff00"],
+    color:["#000000","#ff0000","ffff00","0080ff"],
     sizeVariation:4,
     speed:1.5,
   });
 };
+
 </script>
 
 </head>
@@ -45,10 +47,8 @@ html,body
   <canvas class="background" ></canvas>
   
  <nav>
-  <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
    <a href="">Resume</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  
-
   <a href="education.html">Education</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="skills.html">Skills</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="project.html">Projects</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -56,15 +56,16 @@ html,body
 </nav>
 <center>
   <div class="container">
+  
     
       <img id="per" src="abc.jpg" alt="">
       <h1>Pritesh Kumar Singh</h1>
       
-      <p id="demo">I am a MEAN stack developer.<br>Graduating in 2021.<br>Looking for Intership in area of web development</p>
+      <p id="demo">I am a <span id="demo1"></span>
 
  <center>
  <footer id="cu">
-  &copy;2019 Personal website &nbsp; Designed by Pritesh with <span>❤</span> <br>
+  COPYRIGHT&copy;2019 Personal website &nbsp; Designed by Pritesh with <span id="heart">❤</span> <br>
   Contact details☎ 8882657925
 </footer>
 </center>
@@ -72,3 +73,14 @@ html,body
 </div>
 </body>
 </html>
+<script>
+
+var typed = new Typed('#demo1', {
+strings: ["MEAN stack developer.<br>Graduating in 2021.<br>Looking for Intership in area of web development</p>"],
+typeSpeed: 70,
+backspeed:100,
+loop: true,
+});
+</script>
+
+
